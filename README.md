@@ -4,6 +4,9 @@ Unable to build Realm-Kotlin `1.2.0-ktor2-SNAPSHOT` with Kotlin `1.7.20-RC`.
 
 Original issue link: https://github.com/realm/realm-kotlin/issues/1002
 
+## Kotlin version
+This only happens with Kotlin `1.7.20`. On branch [kotlin-1.7.10](https://github.com/paolorotolo/realm-multiplatform-issue-1002/tree/kotlin-1.7.10) you can verify that the same project compiles successifully with Kotlin downgraded to `1.7.10`.
+
 ## Steps to reproduce
  * Build the `:androidApp` project
  
